@@ -14,9 +14,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@fdr-assure/shared": "^1.0.0"
+    "@fdr-assure/shared": "^1.0.0",
+    "pg": "^8.23.1"
   },
   "devDependencies": {
+    "@types/pg": "^8.23.1",
     "vitest": "^5.0.5"
   }
 }
