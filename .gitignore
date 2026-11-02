@@ -1,0 +1,23 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+
+# Local backup copies
+*.backup
+*.backup-*
+*.bak
+*.before-*
+*.pre-*
+
+# Nested workspace lockfile (root lockfile is authoritative)
+apps/web/package-lock.json

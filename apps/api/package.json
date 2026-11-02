@@ -1,0 +1,22 @@
+{
+  "name": "@fdr-assure/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run src",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@fdr-assure/shared": "^1.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.5"
+  }
+}
