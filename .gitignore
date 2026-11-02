@@ -21,3 +21,4 @@ coverage/
 
 # Nested workspace lockfile (root lockfile is authoritative)
 apps/web/package-lock.json
+.neon
